@@ -3,7 +3,7 @@ FROM alpine:latest AS build
 RUN apk add --no-cache git make nodejs npm yarn musl-dev autoconf automake yasm \
                        clang py3-pip curl pkgconf cmake libtool binutils bash clang-dev gcc g++ \
                        diffutils patch linux-headers
-RUN git clone --recurse-submodules https://github.com/wirow-io/wirow-server.git
+RUN git clone --recurse-submodules https://github.com/marcosfermin/wirow-server.git
 
 RUN mkdir -p /wirow-server/build
 WORKDIR /wirow-server/build

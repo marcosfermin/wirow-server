@@ -100,7 +100,7 @@ static iwrc _curl_perform(struct acme *acme, const char *url, struct xcurlreq *d
   XCC(cc, finish, curl_easy_setopt(curl, CURLOPT_WRITEDATA, acme->response));
   XCC(cc, finish, curl_easy_setopt(curl, CURLOPT_HEADERFUNCTION, xcurl_hdr_write_iwlist));
   XCC(cc, finish, curl_easy_setopt(curl, CURLOPT_HEADERDATA, &acme->headers));
-  XCC(cc, finish, curl_easy_setopt(curl, CURLOPT_USERAGENT, "wirow.io"));
+  XCC(cc, finish, curl_easy_setopt(curl, CURLOPT_USERAGENT, "brocha.app"));
 
   if (data) {
     if (data->payload) {
@@ -696,7 +696,7 @@ static iwrc _account_create(struct acme *acme, const char *url) {
   #ifdef LICENSE_EMAIL
   RCC(rc, finish, jbl_set_string(jbl2, 0, "mailto:"  LICENSE_EMAIL));
   #else
-  RCC(rc, finish, jbl_set_string_printf(jbl2, 0, "mailto:%s@wirow.io", g_env.domain_name));
+  RCC(rc, finish, jbl_set_string_printf(jbl2, 0, "mailto:%s@brocha.app", g_env.domain_name));
   #endif
   RCC(rc, finish, jbl_set_nested(jbl, "contact", jbl2));
 
@@ -903,7 +903,7 @@ static iwrc _finalize(struct acme *acme, const char *url) {
   #else
   char buf[255];
   const char *email = buf;
-  snprintf(buf, sizeof(buf), "%s@wirow.io", g_env.domain_name);
+  snprintf(buf, sizeof(buf), "%s@brocha.app", g_env.domain_name);
   #endif
 
   size_t len, csrlen;

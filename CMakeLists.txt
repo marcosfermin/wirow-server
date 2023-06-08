@@ -16,10 +16,10 @@ project(
   LANGUAGES C CXX)
 
 set(PROJECT_VENDOR "Softmotions (https://softmotions.com)")
-set(PROJECT_WEBSITE "https://wirow.io")
+set(PROJECT_WEBSITE "https://brocha.app")
 set(PROJECT_MAINTAINER "Anton Adamansky <adamansky@softmotions.com>")
-set(PROJECT_DESCRIPTION_SUMMARY "Wirow video conferencing system")
-set(PROJECT_DESCRIPTION "Wirow video conferencing system")
+set(PROJECT_DESCRIPTION_SUMMARY "Brocha video conferencing system")
+set(PROJECT_DESCRIPTION "Brocha video conferencing system")
 set(PROJECT_VERSION_MAJOR ${CHANGELOG_LAST_VERSION_MAJOR})
 set(PROJECT_VERSION_MINOR ${CHANGELOG_LAST_VERSION_MINOR})
 set(PROJECT_VERSION_PATCH ${CHANGELOG_LAST_VERSION_PATCH})

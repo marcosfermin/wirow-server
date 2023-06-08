@@ -36,7 +36,7 @@ apt-get install -y autoconf automake pkgconf \
 ### Building
 
 ```sh
-git clone --recurse-submodules https://github.com/wirow-io/wirow-server.git
+git clone --recurse-submodules https://github.com/marcosfermin/wirow-server.git
 
 mkdir -p ./wirow-server/build && cd ./wirow-server/build
 
@@ -46,7 +46,7 @@ cmake ..  -G Ninja \
 ninja
 ```
 
-Wirow build artifacts are located here:
+Brocha build artifacts are located here:
 
 ```sh
  ./build/src/wirow    # Stripped binary

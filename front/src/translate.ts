@@ -30,7 +30,7 @@ export function t(msg: formatMessage.Message, args?: Record<string, any>, locale
 
 translations.update({
   en: {
-    'title.greenrooms': 'Wirow',
+    'title.greenrooms': 'Brocha',
 
     'error.unspecified': 'Unspecified',
     'error.room_not_found': 'Room not found',
@@ -92,7 +92,7 @@ translations.update({
     'meeting.state.failed': 'failed',
     'meeting.state.disconnected': 'disconnected',
 
-    'Compatibility.caption': 'Wirow is not compatible with your browser',
+    'Compatibility.caption': 'Brocha is not compatible with your browser',
     'Compatibility.supported_caption': 'Currently only the following <strong>desktop</strong> browsers are supported:',
 
     'ChatInput.tooltip_send': 'Send message',
@@ -104,7 +104,7 @@ translations.update({
     'ChatInput.file_upload_forbidden': 'You should be logged in to send files',
     'ChatInput.file_size_limit': 'File {name} is bigger than allowed {limit}Mb',
 
-    'Welcome.welcome': 'Welcome to Wirow!',
+    'Welcome.welcome': 'Welcome to Brocha!',
     'Welcome.guest': 'Guest',
     'Welcome.create_meeting': 'Meeting',
     'Welcome.create_webinar': 'Webinar',
@@ -225,7 +225,7 @@ translations.update({
     'event.RoomRecordingPPDone': '{name}: Video recording ready',
   },
   de: {
-    'title.greenrooms': 'Wirow',
+    'title.greenrooms': 'Brocha',
 
     'error.unspecified': 'Unspezifiziert',
     'error.room_not_found': 'Raum nicht gefunden',
@@ -288,7 +288,7 @@ translations.update({
     'meeting.state.failed': 'gescheitert',
     'meeting.state.disconnected': 'getrennt',
 
-    'Compatibility.caption': 'Wirow is nich mit ihr Browser kompatibel',
+    'Compatibility.caption': 'Brocha is nich mit ihr Browser kompatibel',
     'Compatibility.supported_caption': 'Zurzeit sind nur nachstehenden Browser <strong>desktop</strong> unterstützt:',
 
     'ChatInput.tooltip_send': 'Nachricht senden',
@@ -300,7 +300,7 @@ translations.update({
     'ChatInput.file_upload_forbidden': 'Um Dateien zu senden, müssen sie angemeldet  sein',
     'ChatInput.file_size_limit': 'Datei {name} größer als erlaubte Größe {limit}Mb',
 
-    'Welcome.welcome': 'Willkommen zu Wirow!',
+    'Welcome.welcome': 'Willkommen zu Brocha!',
     'Welcome.guest': 'Gast',
     'Welcome.create_meeting': 'Meeting',
     'Welcome.create_webinar': 'Webinar',
@@ -422,7 +422,7 @@ translations.update({
   },
 
   fr: {
-    'title.greenrooms': 'Wirow',
+    'title.greenrooms': 'Brocha',
 
     'error.unspecified': 'Non spécifié',
     'error.room_not_found': 'Salon non trouvé',
@@ -485,7 +485,7 @@ translations.update({
     'meeting.state.failed': 'Échec',
     'meeting.state.disconnected': 'déconnecté',
 
-    'Compatibility.caption': "Wirow n'est pas compatible avec votre Browser",
+    'Compatibility.caption': "Brocha n'est pas compatible avec votre Browser",
     'Compatibility.supported_caption': 'Actuellement seul les Browser supporté sont ceux des <strong>bureau</strong>:',
 
     'ChatInput.tooltip_send': 'Envoit de message',
@@ -497,7 +497,7 @@ translations.update({
     'ChatInput.file_upload_forbidden': 'Vous devez être identifié pour télécharger des fichiers',
     'ChatInput.file_size_limit': 'La taille du fichier {name} est supérieure a la limite imposée {limit}Mb',
 
-    'Welcome.welcome': 'Bienvenu sur Wirow!',
+    'Welcome.welcome': 'Bienvenu sur Brocha!',
     'Welcome.guest': 'Guest',
     'Welcome.create_meeting': 'Réunion',
     'Welcome.create_webinar': 'Webinar',

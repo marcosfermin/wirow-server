@@ -23,7 +23,7 @@ static const unsigned char admin_html[]
   = "<!DOCTYPE html>"
     "<html lang='en'>"
     "<head>"
-    "<title>Wirow Admin Console</title>"
+    "<title>Brocha Admin Console</title>"
     "<meta name='viewport' content='width=device-width,initial-scale=1' />"
     "<link href='fonts.css' rel='stylesheet' type='text/css' />"
     "<link href='admin.css' rel='stylesheet' type='text/css' />"

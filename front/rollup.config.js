@@ -296,7 +296,7 @@ async function configMain() {
     babel(babelOptions),
     // injects your bundles into index page
     html({
-      title: 'Wirow',
+      title: 'Brocha',
       fileName: 'index.html',
       template: htmlTemplate,
     }),

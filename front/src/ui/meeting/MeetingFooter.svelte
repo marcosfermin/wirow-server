@@ -34,7 +34,7 @@
 
 <template>
   <div class="footer">
-    <div><a href="https://wirow.io" target="_blank">https://wirow.io</a></div>
+    <div><a href="https://brocha.app" target="_blank">https://brocha.app</a></div>
     <div class="flex-expand" />
     {#if state}
       <div>{$_('meeting.state.' + $state)}</div>

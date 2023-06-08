@@ -150,7 +150,7 @@ static iwrc _export_consumer_create_sdp(rct_producer_export_t *export) {
       iwxstr_cat2(xstr,
                   "v=0\r\n"
                   "o=- 0 0 IN IP4 127.0.0.1\r\n"
-                  "s=Wirow\r\n"
+                  "s=Brocha\r\n"
                   "c=IN IP4 127.0.0.1\r\n"
                   "t=0 0\r\n"
                   ));

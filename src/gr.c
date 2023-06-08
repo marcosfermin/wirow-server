@@ -908,7 +908,7 @@ static void _configure(int argc, char *argv[]) {
 
   if (!under_proxy && !(g_env.domain_name || (g_env.cert_file && g_env.cert_key_file))) {
     usage_err
-      = "HTTPS support with real domain name must be enabled for your Wirow server."
+      = "HTTPS support with real domain name must be enabled for your Brocha server."
         "\n `-n <domain name>` command line option is the easiest way to do that."
         "\n Please check the wirow.pdf manual";
     goto usage;

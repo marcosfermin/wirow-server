@@ -1,32 +1,32 @@
 ## Docker Image
 
-[Wirow server Dockerfile](https://github.com/wirow-io/wirow-server/blob/master/docker/Dockerfile)
+[Brocha server Dockerfile](https://github.com/marcosfermin/wirow-server/blob/master/docker/Dockerfile)
 
 ```sh
 cd ./docker
 docker build --no-cache --force-rm -t wirow .
 ```
 
-Please mind about the following volume dirs defined in [Dokerfile](https://github.com/wirow-io/wirow-server/blob/master/docker/Dockerfile):
+Please mind about the following volume dirs defined in [Dokerfile](https://github.com/marcosfermin/wirow-server/blob/master/docker/Dockerfile):
 - `/data` Where wirow database, uploads and room recordings are located.
 - `/config/wirow.ini` A server configuration file.
 
-Before starting Wirow docker container
-- Read the [Wirow server Administrator's Guide](https://github.com/wirow-io/wirow-server/blob/master/docs/wirow.adoc)
+Before starting Brocha docker container
+- Read the [Brocha server Administrator's Guide](https://github.com/marcosfermin/wirow-server/blob/master/docs/wirow.adoc)
 - Review `/config/wirow.ini` ip/network options, ssl certs section (if you don't plan to use Let's Encrypt).
 
-**Basic check of Wirow server availability:**
+**Basic check of Brocha server availability:**
 
 ```sh
 docker run --rm wirow -h
 ```
 
-**You have three options how to run a Wirow server:**
-- Wirow server on your domain with Let's Encrypt HTTPS Certificates. (Recommended)
-- Wirow server on your host with own HTTPS certificates.
-- Wirow server behind HTTP proxy.
+**You have three options how to run a Brocha server:**
+- Brocha server on your domain with Let's Encrypt HTTPS Certificates. (Recommended)
+- Brocha server on your host with own HTTPS certificates.
+- Brocha server behind HTTP proxy.
 
-### Wirow server on your domain with Let's Encrypt Certificates (Recommended)
+### Brocha server on your domain with Let's Encrypt Certificates (Recommended)
 
 Please check what your host is accessible by your domain name and 80/443, 44300-44600 tcp/udp ports are accessible.
 
@@ -40,7 +40,7 @@ docker run --name wirow wirow -n mywirow.example.com -a start01
 ```
 Later you may change your password and manage users by Admin UI.
 
-### Wirow server on your host with own HTTPS certificates
+### Brocha server on your host with own HTTPS certificates
 
 Here is the Example:
 
@@ -80,8 +80,8 @@ docker run --name wirow -v ${WORKDIR}/config:/config wirow -a start01
 Point your browser `https://172.17.0.2` (specific to this example) then use `admin/start01` credentials at login page.
 Later you may change your password and manage users by Admin UI.
 
-### Wirow server behind HTTP proxy
+### Brocha server behind HTTP proxy
 
-Please refer to [Wirow server Administrator's Guide](https://github.com/wirow-io/wirow-server/blob/master/docs/wirow.adoc)
+Please refer to [Brocha server Administrator's Guide](https://github.com/marcosfermin/wirow-server/blob/master/docs/wirow.adoc)
 
 

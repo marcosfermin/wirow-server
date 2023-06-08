@@ -1,5 +1,5 @@
 :attributes:
-:email: info@wirow.io
+:email: info@brocha.app
 :doctype: article
 :toc!:
 :sectnums:
@@ -8,7 +8,7 @@
 :pdf-style: themes/my-theme.yml
 :icons: font
 
-= Wirow
+= Brocha
 
 == Setting Up
 
@@ -24,7 +24,7 @@
 
 CAUTION: The CPU can be high if you are using the video recording function in rooms.
 
-=== Requirements for Wirow client software
+=== Requirements for Brocha client software
 
 ==== Supported browsers
 
@@ -46,8 +46,8 @@ To do this, run the following `setcap` command on Linux:
 sudo /usr/sbin/setcap 'cap_net_bind_service=+ep' ./wirow
 ----
 
-Wirow server must be accessible by `https` protocol and this is a mandatory requirement.
-Thus, you need to point your domain registrar's DNS server to the actual IP address of the Wirow server.
+Brocha server must be accessible by `https` protocol and this is a mandatory requirement.
+Thus, you need to point your domain registrar's DNS server to the actual IP address of the Brocha server.
 
 === Running a Server
 
@@ -73,7 +73,7 @@ Use `-a` option to set an initial password for `admin` account at first run.
 Later in `Admin UI` you may add other users and change your password.
 ====
 
-=== Wirow server with Real IP Address
+=== Brocha server with Real IP Address
 
 [source,sh]
 ----
@@ -86,27 +86,27 @@ Example:
 ./wirow -n conferences.mycompany.com
 ----
 
-In this case, Wirow automatically installs Let’s Encrypt HTTPS
+In this case, Brocha automatically installs Let’s Encrypt HTTPS
 certificates for `+https://conferences.mycompany.com+`
 
-=== Wirow server behind NAT
+=== Brocha server behind NAT
 
 [source,sh]
 ----
 ./wirow -n <domain name> -l '<private ip>@<public ip>'
 ----
 
-=== Wirow server behind an HTTP proxy
+=== Brocha server behind an HTTP proxy
 
 [WARNING]
 ====
-We do not advice running Wirow behind an HTTP proxy, as this will break
+We do not advice running Brocha behind an HTTP proxy, as this will break
 one of the strongest features of this product -- the ease of installation and server configuration.
 ====
 
 [WARNING]
 ====
-Keep in mind -- Wirow WebRTC RTP ports (usually in range `49152..65535`)
+Keep in mind -- Brocha WebRTC RTP ports (usually in range `49152..65535`)
 must be accessible from external network even when server is behind an HTTP proxy.
 So it is wrong to bind the server to `localhost` behind the proxy.
 ====
@@ -186,7 +186,7 @@ server {
 ./wirow -s -p 8080
 ----
 
-== Wirow .ini Configuration
+== Brocha .ini Configuration
 
 Server parameters can be specified in the `.ini` configuration file, as shown in the example below.
 
@@ -204,7 +204,7 @@ Server parameters can be specified in the `.ini` configuration file, as shown in
 
 [source,ini]
 ----
-;; Wirow example configuration.
+;; Brocha example configuration.
 ;;
 ;; Any part of configuration may contain placeholders ( {...} )
 ;; which will be replaced by the following variables:
@@ -291,4 +291,4 @@ ports = 49152..65535
 
 ----
 
-link:./wirow-configuration.ini[Wirow server configuration reference]
+link:./wirow-configuration.ini[Brocha server configuration reference]

@@ -34,7 +34,7 @@ static const char *login_html
   = "<!DOCTYPE html>"
     "<html lang='en' data-status='b082c6'>"
     "<head>"
-    "<title>Wirow</title>"
+    "<title>Brocha</title>"
     "<meta name='viewport' content='width=device-width,initial-scale=1' />"
     "<link href='fonts.css' rel='stylesheet' type='text/css' />"
     "<link href='bundle.css' rel='stylesheet' type='text/css' />"

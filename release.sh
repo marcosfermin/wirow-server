@@ -43,7 +43,7 @@ EOF
 }
 
 release_tag() {
-  echo "Creating a Wirow release"
+  echo "Creating a Brocha release"
   readme
 
   git pull origin master

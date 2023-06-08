@@ -6,6 +6,6 @@
 <template>
   <div class="app-caption">
     <Icon icon={logoIcon} size="3rem" />
-    <a href="https://wirow.io" target="_blank">Wirow</a>
+    <a href="https://brocha.app" target="_blank">Brocha</a>
   </div>
 </template>

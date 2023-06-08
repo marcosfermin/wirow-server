@@ -21,7 +21,7 @@ function CollabWrapper(props: RouteComponentProps) {
   const onPointerUpdate = useCallback((pointer) => collab && collab.onPointerUpdate(pointer), [collab]);
 
   useEffect(() => {
-    document.title = title ? `${title} (whiteboard)` : `Wirow Whiteboard`;
+    document.title = title ? `${title} (whiteboard)` : `Brocha Whiteboard`;
   }, [title]);
 
   useEffect(() => {

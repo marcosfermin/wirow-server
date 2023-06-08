@@ -17,7 +17,7 @@
   <div class="welcome-header">
     <div class="logo">
       <Icon icon={logoIcon} size="3rem" />
-      <a href="https://wirow.io" target="_blank">Wirow</a>
+      <a href="https://brocha.app" target="_blank">Brocha</a>
     </div>
     <div />
     <div />
