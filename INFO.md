@@ -38,7 +38,7 @@ Fill an [Issue](https://github.com/marcosfermin/wirow-server/issues) If you beli
 
 ## Guides
 
-- [Brocha Server Administrator's Guide](https://github.com/marcosfermin/wirow-server/blob/master/docs/wirow.adoc) ([phttps://github.com/marcosferminw-io/wirow-server/blob/master/docs/wirow.pdf))
+- [Brocha Server Administrator's Guide](https://github.com/marcosfermin/wirow-server/blob/master/docs/wirow.adoc) ([phttps://github.com/marcosfermin/wirow-server/blob/master/docs/wirow.pdf))
 - [Brocha Server Configuration Reference](https://github.com/marcosfermin/wirow-server/blob/master/docs/wirow-configuration.ini)
 
 ## Software used by Brocha
